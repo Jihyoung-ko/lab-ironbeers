@@ -23,12 +23,12 @@ nav {
   color: white;
 }
 
-ul {
+#nav-bar ul {
   display: flex;
   margin-left: 50px;
 }
 
-li {
+#nav-bar li {
   list-style: none;
   margin: 10px;
 }
@@ -43,7 +43,8 @@ a {
   border-radius: 5px;
 }
 
-p {
+p,
+.card li {
   margin-bottom: 10px;
 }
 
@@ -99,4 +100,9 @@ img {
 
 #tagline {
   color: #bfbfbf;
+}
+
+.card ul {
+  padding-left: 120px;
+  padding-bottom: 10px;
 }
