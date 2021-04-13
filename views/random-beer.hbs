@@ -1,0 +1,11 @@
+
+<div class="card">
+  {{> beerpartials }}
+  <p><span>Food Pairing</span></p>
+  <ul>
+    {{#each food-pairing}}
+    <li>{{ this }}</li>
+    {{/each}}
+  </ul>
+  <p><span>Brewers Tip: </span>{{brewers_tips}}</p>
+</div>
